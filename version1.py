@@ -33,5 +33,6 @@ def generator():
 
     name=letter1+letter2+letter3
     return name
-
-print(generator())
+    
+for i in range(10):
+    print(generator())
